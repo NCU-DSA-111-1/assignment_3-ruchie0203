@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++11 -Wall -Wextra -Werror -pedantic-errors -O3 -DNDEBUG  -rdynamic CMakeFiles/codec_tests.dir/codec_tests.cpp.o  -o codec_tests  ../arcd/libarcd.a 

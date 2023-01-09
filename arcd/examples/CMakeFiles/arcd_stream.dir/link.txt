@@ -1,0 +1,1 @@
+/usr/bin/cc  -std=c99 -Wall -Wextra -Werror -pedantic-errors -O3 -DNDEBUG  -rdynamic CMakeFiles/arcd_stream.dir/arcd_stream.c.o  -o arcd_stream  ../arcd/libarcd.a libadaptive_model.a ../arcd/libarcd.a 

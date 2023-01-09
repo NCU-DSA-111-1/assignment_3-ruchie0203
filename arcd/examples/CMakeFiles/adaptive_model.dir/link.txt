@@ -1,0 +1,2 @@
+/usr/bin/ar qc libadaptive_model.a  CMakeFiles/adaptive_model.dir/adaptive_model.c.o
+/usr/bin/ranlib libadaptive_model.a

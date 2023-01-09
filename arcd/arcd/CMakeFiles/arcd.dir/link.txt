@@ -1,0 +1,2 @@
+/usr/bin/ar qc libarcd.a  CMakeFiles/arcd.dir/arcd.c.o
+/usr/bin/ranlib libarcd.a

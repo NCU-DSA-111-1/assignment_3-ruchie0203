@@ -1,0 +1,13 @@
+/home/richie0203/workspace/fromGitHub/arcd/arcd/CMakeFiles/install/strip.dir
+/home/richie0203/workspace/fromGitHub/arcd/arcd/CMakeFiles/install/local.dir
+/home/richie0203/workspace/fromGitHub/arcd/arcd/CMakeFiles/install.dir
+/home/richie0203/workspace/fromGitHub/arcd/arcd/CMakeFiles/list_install_components.dir
+/home/richie0203/workspace/fromGitHub/arcd/arcd/CMakeFiles/rebuild_cache.dir
+/home/richie0203/workspace/fromGitHub/arcd/arcd/CMakeFiles/edit_cache.dir
+/home/richie0203/workspace/fromGitHub/arcd/arcd/arcd/CMakeFiles/install/strip.dir
+/home/richie0203/workspace/fromGitHub/arcd/arcd/arcd/CMakeFiles/install/local.dir
+/home/richie0203/workspace/fromGitHub/arcd/arcd/arcd/CMakeFiles/install.dir
+/home/richie0203/workspace/fromGitHub/arcd/arcd/arcd/CMakeFiles/list_install_components.dir
+/home/richie0203/workspace/fromGitHub/arcd/arcd/arcd/CMakeFiles/rebuild_cache.dir
+/home/richie0203/workspace/fromGitHub/arcd/arcd/arcd/CMakeFiles/edit_cache.dir
+/home/richie0203/workspace/fromGitHub/arcd/arcd/arcd/CMakeFiles/arcd.dir
