@@ -45,14 +45,14 @@ unset(_expectedTargets)
 add_library(arcd STATIC IMPORTED)
 
 set_target_properties(arcd PROPERTIES
-  INTERFACE_INCLUDE_DIRECTORIES "/home/richie0203/workspace/fromGitHub/arcd/arcd"
+  INTERFACE_INCLUDE_DIRECTORIES "/home/richie0203/workspace/Assignment_3/arcd/arcd"
 )
 
 # Import target "arcd" for configuration "Release"
 set_property(TARGET arcd APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(arcd PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_RELEASE "C"
-  IMPORTED_LOCATION_RELEASE "/home/richie0203/workspace/fromGitHub/arcd/arcd/libarcd.a"
+  IMPORTED_LOCATION_RELEASE "/home/richie0203/workspace/Assignment_3/arcd/arcd/libarcd.a"
   )
 
 # This file does not depend on other imported targets which have

@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/richie0203/workspace/fromGitHub/arcd/examples/arcd_stream.c
+/home/richie0203/workspace/Assignment_3/arcd/examples/arcd_stream.c
 string.h
 -
 stdio.h

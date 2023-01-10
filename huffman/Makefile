@@ -10,6 +10,8 @@ LDFLAGS+=-arch ${ARCH}
 CFLAGS+=-arch ${ARCH}
 endif
 
+.PHONY: all
+
 all: huffcode libhuffman.a
 
 huffcode: huffcode.o libhuffman.a

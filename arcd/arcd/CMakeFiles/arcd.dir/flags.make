@@ -6,5 +6,5 @@ C_FLAGS =  -std=c99 -Wall -Wextra -Werror -pedantic-errors -O3 -DNDEBUG
 
 C_DEFINES = 
 
-C_INCLUDES = -I/home/richie0203/workspace/fromGitHub/arcd/arcd 
+C_INCLUDES = -I/home/richie0203/workspace/Assignment_3/arcd/arcd 
 

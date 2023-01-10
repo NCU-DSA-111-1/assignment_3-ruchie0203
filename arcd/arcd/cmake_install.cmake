@@ -1,4 +1,4 @@
-# Install script for directory: /home/richie0203/workspace/fromGitHub/arcd/arcd
+# Install script for directory: /home/richie0203/workspace/Assignment_3/arcd/arcd
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -38,10 +38,10 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/richie0203/workspace/fromGitHub/arcd/arcd/libarcd.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/richie0203/workspace/Assignment_3/arcd/arcd/libarcd.a")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/richie0203/workspace/fromGitHub/arcd/arcd/" FILES_MATCHING REGEX "/[^/]*\\.h$")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/richie0203/workspace/Assignment_3/arcd/arcd/" FILES_MATCHING REGEX "/[^/]*\\.h$")
 endif()
 

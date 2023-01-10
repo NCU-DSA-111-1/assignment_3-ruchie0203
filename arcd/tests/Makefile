@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/richie0203/workspace/fromGitHub/arcd
+CMAKE_SOURCE_DIR = /home/richie0203/workspace/Assignment_3/arcd
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/richie0203/workspace/fromGitHub/arcd
+CMAKE_BINARY_DIR = /home/richie0203/workspace/Assignment_3/arcd
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,14 +137,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/richie0203/workspace/fromGitHub/arcd && $(CMAKE_COMMAND) -E cmake_progress_start /home/richie0203/workspace/fromGitHub/arcd/CMakeFiles /home/richie0203/workspace/fromGitHub/arcd/tests/CMakeFiles/progress.marks
-	cd /home/richie0203/workspace/fromGitHub/arcd && $(MAKE) -f CMakeFiles/Makefile2 tests/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/richie0203/workspace/fromGitHub/arcd/CMakeFiles 0
+	cd /home/richie0203/workspace/Assignment_3/arcd && $(CMAKE_COMMAND) -E cmake_progress_start /home/richie0203/workspace/Assignment_3/arcd/CMakeFiles /home/richie0203/workspace/Assignment_3/arcd/tests/CMakeFiles/progress.marks
+	cd /home/richie0203/workspace/Assignment_3/arcd && $(MAKE) -f CMakeFiles/Makefile2 tests/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/richie0203/workspace/Assignment_3/arcd/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/richie0203/workspace/fromGitHub/arcd && $(MAKE) -f CMakeFiles/Makefile2 tests/clean
+	cd /home/richie0203/workspace/Assignment_3/arcd && $(MAKE) -f CMakeFiles/Makefile2 tests/clean
 .PHONY : clean
 
 # The main clean target
@@ -154,22 +154,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/richie0203/workspace/fromGitHub/arcd && $(MAKE) -f CMakeFiles/Makefile2 tests/preinstall
+	cd /home/richie0203/workspace/Assignment_3/arcd && $(MAKE) -f CMakeFiles/Makefile2 tests/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/richie0203/workspace/fromGitHub/arcd && $(MAKE) -f CMakeFiles/Makefile2 tests/preinstall
+	cd /home/richie0203/workspace/Assignment_3/arcd && $(MAKE) -f CMakeFiles/Makefile2 tests/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/richie0203/workspace/fromGitHub/arcd && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/richie0203/workspace/Assignment_3/arcd && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 tests/CMakeFiles/codec_tests.dir/rule:
-	cd /home/richie0203/workspace/fromGitHub/arcd && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/codec_tests.dir/rule
+	cd /home/richie0203/workspace/Assignment_3/arcd && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/codec_tests.dir/rule
 .PHONY : tests/CMakeFiles/codec_tests.dir/rule
 
 # Convenience name for target.
@@ -179,7 +179,7 @@ codec_tests: tests/CMakeFiles/codec_tests.dir/rule
 
 # fast build rule for target.
 codec_tests/fast:
-	cd /home/richie0203/workspace/fromGitHub/arcd && $(MAKE) -f tests/CMakeFiles/codec_tests.dir/build.make tests/CMakeFiles/codec_tests.dir/build
+	cd /home/richie0203/workspace/Assignment_3/arcd && $(MAKE) -f tests/CMakeFiles/codec_tests.dir/build.make tests/CMakeFiles/codec_tests.dir/build
 .PHONY : codec_tests/fast
 
 codec_tests.o: codec_tests.cpp.o
@@ -188,7 +188,7 @@ codec_tests.o: codec_tests.cpp.o
 
 # target to build an object file
 codec_tests.cpp.o:
-	cd /home/richie0203/workspace/fromGitHub/arcd && $(MAKE) -f tests/CMakeFiles/codec_tests.dir/build.make tests/CMakeFiles/codec_tests.dir/codec_tests.cpp.o
+	cd /home/richie0203/workspace/Assignment_3/arcd && $(MAKE) -f tests/CMakeFiles/codec_tests.dir/build.make tests/CMakeFiles/codec_tests.dir/codec_tests.cpp.o
 .PHONY : codec_tests.cpp.o
 
 codec_tests.i: codec_tests.cpp.i
@@ -197,7 +197,7 @@ codec_tests.i: codec_tests.cpp.i
 
 # target to preprocess a source file
 codec_tests.cpp.i:
-	cd /home/richie0203/workspace/fromGitHub/arcd && $(MAKE) -f tests/CMakeFiles/codec_tests.dir/build.make tests/CMakeFiles/codec_tests.dir/codec_tests.cpp.i
+	cd /home/richie0203/workspace/Assignment_3/arcd && $(MAKE) -f tests/CMakeFiles/codec_tests.dir/build.make tests/CMakeFiles/codec_tests.dir/codec_tests.cpp.i
 .PHONY : codec_tests.cpp.i
 
 codec_tests.s: codec_tests.cpp.s
@@ -206,7 +206,7 @@ codec_tests.s: codec_tests.cpp.s
 
 # target to generate assembly for a file
 codec_tests.cpp.s:
-	cd /home/richie0203/workspace/fromGitHub/arcd && $(MAKE) -f tests/CMakeFiles/codec_tests.dir/build.make tests/CMakeFiles/codec_tests.dir/codec_tests.cpp.s
+	cd /home/richie0203/workspace/Assignment_3/arcd && $(MAKE) -f tests/CMakeFiles/codec_tests.dir/build.make tests/CMakeFiles/codec_tests.dir/codec_tests.cpp.s
 .PHONY : codec_tests.cpp.s
 
 # Help Target
@@ -237,6 +237,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/richie0203/workspace/fromGitHub/arcd && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/richie0203/workspace/Assignment_3/arcd && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/richie0203/workspace/fromGitHub/arcd
+CMAKE_SOURCE_DIR = /home/richie0203/workspace/Assignment_3/arcd
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/richie0203/workspace/fromGitHub/arcd
+CMAKE_BINARY_DIR = /home/richie0203/workspace/Assignment_3/arcd
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,14 +137,14 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/richie0203/workspace/fromGitHub/arcd && $(CMAKE_COMMAND) -E cmake_progress_start /home/richie0203/workspace/fromGitHub/arcd/CMakeFiles /home/richie0203/workspace/fromGitHub/arcd/examples/CMakeFiles/progress.marks
-	cd /home/richie0203/workspace/fromGitHub/arcd && $(MAKE) -f CMakeFiles/Makefile2 examples/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/richie0203/workspace/fromGitHub/arcd/CMakeFiles 0
+	cd /home/richie0203/workspace/Assignment_3/arcd && $(CMAKE_COMMAND) -E cmake_progress_start /home/richie0203/workspace/Assignment_3/arcd/CMakeFiles /home/richie0203/workspace/Assignment_3/arcd/examples/CMakeFiles/progress.marks
+	cd /home/richie0203/workspace/Assignment_3/arcd && $(MAKE) -f CMakeFiles/Makefile2 examples/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/richie0203/workspace/Assignment_3/arcd/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/richie0203/workspace/fromGitHub/arcd && $(MAKE) -f CMakeFiles/Makefile2 examples/clean
+	cd /home/richie0203/workspace/Assignment_3/arcd && $(MAKE) -f CMakeFiles/Makefile2 examples/clean
 .PHONY : clean
 
 # The main clean target
@@ -154,22 +154,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/richie0203/workspace/fromGitHub/arcd && $(MAKE) -f CMakeFiles/Makefile2 examples/preinstall
+	cd /home/richie0203/workspace/Assignment_3/arcd && $(MAKE) -f CMakeFiles/Makefile2 examples/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/richie0203/workspace/fromGitHub/arcd && $(MAKE) -f CMakeFiles/Makefile2 examples/preinstall
+	cd /home/richie0203/workspace/Assignment_3/arcd && $(MAKE) -f CMakeFiles/Makefile2 examples/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/richie0203/workspace/fromGitHub/arcd && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/richie0203/workspace/Assignment_3/arcd && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 examples/CMakeFiles/arcd_stream.dir/rule:
-	cd /home/richie0203/workspace/fromGitHub/arcd && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/arcd_stream.dir/rule
+	cd /home/richie0203/workspace/Assignment_3/arcd && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/arcd_stream.dir/rule
 .PHONY : examples/CMakeFiles/arcd_stream.dir/rule
 
 # Convenience name for target.
@@ -179,12 +179,12 @@ arcd_stream: examples/CMakeFiles/arcd_stream.dir/rule
 
 # fast build rule for target.
 arcd_stream/fast:
-	cd /home/richie0203/workspace/fromGitHub/arcd && $(MAKE) -f examples/CMakeFiles/arcd_stream.dir/build.make examples/CMakeFiles/arcd_stream.dir/build
+	cd /home/richie0203/workspace/Assignment_3/arcd && $(MAKE) -f examples/CMakeFiles/arcd_stream.dir/build.make examples/CMakeFiles/arcd_stream.dir/build
 .PHONY : arcd_stream/fast
 
 # Convenience name for target.
 examples/CMakeFiles/adaptive_model.dir/rule:
-	cd /home/richie0203/workspace/fromGitHub/arcd && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/adaptive_model.dir/rule
+	cd /home/richie0203/workspace/Assignment_3/arcd && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/adaptive_model.dir/rule
 .PHONY : examples/CMakeFiles/adaptive_model.dir/rule
 
 # Convenience name for target.
@@ -194,7 +194,7 @@ adaptive_model: examples/CMakeFiles/adaptive_model.dir/rule
 
 # fast build rule for target.
 adaptive_model/fast:
-	cd /home/richie0203/workspace/fromGitHub/arcd && $(MAKE) -f examples/CMakeFiles/adaptive_model.dir/build.make examples/CMakeFiles/adaptive_model.dir/build
+	cd /home/richie0203/workspace/Assignment_3/arcd && $(MAKE) -f examples/CMakeFiles/adaptive_model.dir/build.make examples/CMakeFiles/adaptive_model.dir/build
 .PHONY : adaptive_model/fast
 
 adaptive_model.o: adaptive_model.c.o
@@ -203,7 +203,7 @@ adaptive_model.o: adaptive_model.c.o
 
 # target to build an object file
 adaptive_model.c.o:
-	cd /home/richie0203/workspace/fromGitHub/arcd && $(MAKE) -f examples/CMakeFiles/adaptive_model.dir/build.make examples/CMakeFiles/adaptive_model.dir/adaptive_model.c.o
+	cd /home/richie0203/workspace/Assignment_3/arcd && $(MAKE) -f examples/CMakeFiles/adaptive_model.dir/build.make examples/CMakeFiles/adaptive_model.dir/adaptive_model.c.o
 .PHONY : adaptive_model.c.o
 
 adaptive_model.i: adaptive_model.c.i
@@ -212,7 +212,7 @@ adaptive_model.i: adaptive_model.c.i
 
 # target to preprocess a source file
 adaptive_model.c.i:
-	cd /home/richie0203/workspace/fromGitHub/arcd && $(MAKE) -f examples/CMakeFiles/adaptive_model.dir/build.make examples/CMakeFiles/adaptive_model.dir/adaptive_model.c.i
+	cd /home/richie0203/workspace/Assignment_3/arcd && $(MAKE) -f examples/CMakeFiles/adaptive_model.dir/build.make examples/CMakeFiles/adaptive_model.dir/adaptive_model.c.i
 .PHONY : adaptive_model.c.i
 
 adaptive_model.s: adaptive_model.c.s
@@ -221,7 +221,7 @@ adaptive_model.s: adaptive_model.c.s
 
 # target to generate assembly for a file
 adaptive_model.c.s:
-	cd /home/richie0203/workspace/fromGitHub/arcd && $(MAKE) -f examples/CMakeFiles/adaptive_model.dir/build.make examples/CMakeFiles/adaptive_model.dir/adaptive_model.c.s
+	cd /home/richie0203/workspace/Assignment_3/arcd && $(MAKE) -f examples/CMakeFiles/adaptive_model.dir/build.make examples/CMakeFiles/adaptive_model.dir/adaptive_model.c.s
 .PHONY : adaptive_model.c.s
 
 arcd_stream.o: arcd_stream.c.o
@@ -230,7 +230,7 @@ arcd_stream.o: arcd_stream.c.o
 
 # target to build an object file
 arcd_stream.c.o:
-	cd /home/richie0203/workspace/fromGitHub/arcd && $(MAKE) -f examples/CMakeFiles/arcd_stream.dir/build.make examples/CMakeFiles/arcd_stream.dir/arcd_stream.c.o
+	cd /home/richie0203/workspace/Assignment_3/arcd && $(MAKE) -f examples/CMakeFiles/arcd_stream.dir/build.make examples/CMakeFiles/arcd_stream.dir/arcd_stream.c.o
 .PHONY : arcd_stream.c.o
 
 arcd_stream.i: arcd_stream.c.i
@@ -239,7 +239,7 @@ arcd_stream.i: arcd_stream.c.i
 
 # target to preprocess a source file
 arcd_stream.c.i:
-	cd /home/richie0203/workspace/fromGitHub/arcd && $(MAKE) -f examples/CMakeFiles/arcd_stream.dir/build.make examples/CMakeFiles/arcd_stream.dir/arcd_stream.c.i
+	cd /home/richie0203/workspace/Assignment_3/arcd && $(MAKE) -f examples/CMakeFiles/arcd_stream.dir/build.make examples/CMakeFiles/arcd_stream.dir/arcd_stream.c.i
 .PHONY : arcd_stream.c.i
 
 arcd_stream.s: arcd_stream.c.s
@@ -248,7 +248,7 @@ arcd_stream.s: arcd_stream.c.s
 
 # target to generate assembly for a file
 arcd_stream.c.s:
-	cd /home/richie0203/workspace/fromGitHub/arcd && $(MAKE) -f examples/CMakeFiles/arcd_stream.dir/build.make examples/CMakeFiles/arcd_stream.dir/arcd_stream.c.s
+	cd /home/richie0203/workspace/Assignment_3/arcd && $(MAKE) -f examples/CMakeFiles/arcd_stream.dir/build.make examples/CMakeFiles/arcd_stream.dir/arcd_stream.c.s
 .PHONY : arcd_stream.c.s
 
 # Help Target
@@ -283,6 +283,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/richie0203/workspace/fromGitHub/arcd && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/richie0203/workspace/Assignment_3/arcd && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

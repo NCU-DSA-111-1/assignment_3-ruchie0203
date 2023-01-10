@@ -6,5 +6,5 @@ CXX_FLAGS =  -std=c++11 -Wall -Wextra -Werror -pedantic-errors -O3 -DNDEBUG
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/richie0203/workspace/fromGitHub/arcd/arcd 
+CXX_INCLUDES = -I/home/richie0203/workspace/Assignment_3/arcd/arcd 
 

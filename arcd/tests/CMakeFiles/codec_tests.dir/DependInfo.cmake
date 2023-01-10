@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/richie0203/workspace/fromGitHub/arcd/tests/codec_tests.cpp" "/home/richie0203/workspace/fromGitHub/arcd/tests/CMakeFiles/codec_tests.dir/codec_tests.cpp.o"
+  "/home/richie0203/workspace/Assignment_3/arcd/tests/codec_tests.cpp" "/home/richie0203/workspace/Assignment_3/arcd/tests/CMakeFiles/codec_tests.dir/codec_tests.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -15,7 +15,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/richie0203/workspace/fromGitHub/arcd/arcd/CMakeFiles/arcd.dir/DependInfo.cmake"
+  "/home/richie0203/workspace/Assignment_3/arcd/arcd/CMakeFiles/arcd.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

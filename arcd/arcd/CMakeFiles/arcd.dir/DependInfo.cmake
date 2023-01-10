@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/richie0203/workspace/fromGitHub/arcd/arcd/arcd.c" "/home/richie0203/workspace/fromGitHub/arcd/arcd/CMakeFiles/arcd.dir/arcd.c.o"
+  "/home/richie0203/workspace/Assignment_3/arcd/arcd/arcd.c" "/home/richie0203/workspace/Assignment_3/arcd/arcd/CMakeFiles/arcd.dir/arcd.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/richie0203/workspace/fromGitHub/arcd/examples/arcd_stream.c" "/home/richie0203/workspace/fromGitHub/arcd/examples/CMakeFiles/arcd_stream.dir/arcd_stream.c.o"
+  "/home/richie0203/workspace/Assignment_3/arcd/examples/arcd_stream.c" "/home/richie0203/workspace/Assignment_3/arcd/examples/CMakeFiles/arcd_stream.dir/arcd_stream.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
@@ -16,8 +16,8 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/richie0203/workspace/fromGitHub/arcd/arcd/CMakeFiles/arcd.dir/DependInfo.cmake"
-  "/home/richie0203/workspace/fromGitHub/arcd/examples/CMakeFiles/adaptive_model.dir/DependInfo.cmake"
+  "/home/richie0203/workspace/Assignment_3/arcd/arcd/CMakeFiles/arcd.dir/DependInfo.cmake"
+  "/home/richie0203/workspace/Assignment_3/arcd/examples/CMakeFiles/adaptive_model.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

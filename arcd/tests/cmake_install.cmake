@@ -1,4 +1,4 @@
-# Install script for directory: /home/richie0203/workspace/fromGitHub/arcd/tests
+# Install script for directory: /home/richie0203/workspace/Assignment_3/arcd/tests
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
